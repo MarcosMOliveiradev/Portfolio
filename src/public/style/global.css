@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+html {
+
+    /* Cores */
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+
+    /* Fontes */
+    font-family: 'Merriweather Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
