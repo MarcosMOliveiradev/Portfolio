@@ -3,6 +3,7 @@ body {
     color: var(--text-color);
 }
 .profile {
+    border-radius: 0.6rem;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -36,26 +37,30 @@ div header img {
 /* Terceiro card */
 
 #cards {
-    margin-top: 4rem;
-    margin-left: 4rem;
-    background-color: var(--bg-cards);
     display: flex;
     flex-direction: column;
-    gap: 3.4rem;
-    width: 34.8rem;
-    height: 34.8rem;
-}
-
-div main .card-link {
-    display: flex;
-    margin-top: 3rem;
+    gap: 2rem;
+    margin-top: 2rem;
     margin-left: 4rem;
-    font-size: 1.3rem;
+    width: 34.8rem;
 }
 
-div main .card-link p {
-    margin-left: 2rem;
+.card-link {
+    background: var(--bg-cards);
+    padding: 2rem  2.3rem;
+    border-radius: 0.6rem;
+}
+
+.card-link ul {
     display: flex;
-    text-align: center;
+    height: 32rem;
+    flex-direction: column;
+}
+
+.card-link li {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: flex;
     align-items: center;
 }
+
