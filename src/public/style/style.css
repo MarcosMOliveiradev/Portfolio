@@ -2,6 +2,13 @@ body {
     background-color: var(--body-bg-color);
     color: var(--text-color);
 }
+
+.global {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+}
+
 .profile {
     border-radius: 0.6rem;
     align-items: center;
@@ -71,4 +78,29 @@ main div ul li p {
 
 main div ul li p a {
     color: white;
+}
+
+.a {
+    margin-top: 4rem;
+    margin-left: 4rem;
+
+    border-radius: 0.6rem;
+    width: 34.8rem;
+    height: 20rem;
+    border: 0.2rem solid red;
+
+}
+
+
+@media (min-width: 700px){
+    .global {
+        display: flex;
+        max-width: 200rem;
+        max-height: 100rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .a {
+        width: 34.8rem;
+    }
 }
